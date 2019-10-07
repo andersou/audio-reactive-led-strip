@@ -11,7 +11,7 @@ enum PLAYMODE {MODE_SCROLL, MODE_ENERGY, MODE_SPECTRUM};
 class MusicLeds{
     private:
         //N_PIXELS: The number of the LEDS on the led strip, must be even.
-        static const uint16_t N_PIXELS = 60;
+        static const uint16_t N_PIXELS = 49;
         //MIN_VOLUME_THRESHOLD: If the audio's volume is less than this number, the signal will not be processed.
         static constexpr float MIN_VOLUME_THRESHOLD = 0.0003;
         //Microphone(type of PDM)'s WS Pin and DATA_IN Pin, connecting to GPIO
